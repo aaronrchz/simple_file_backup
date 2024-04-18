@@ -23,7 +23,6 @@ class CopyController:
             folder_name = os.path.basename(src)
             dest_path = os.path.join(dest, f"{self.folder_header_name}_{self.now.date()}_{self.now.time().hour}_{self.now.time().minute}_{self.now.time().second}", folder_name)
             shutil.copytree(src, dest_path)
-            print("folder copy test end")
             
         except Exception as e:
             print(f"an exception has occured while copying the folder {e}")
