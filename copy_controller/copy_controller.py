@@ -11,6 +11,8 @@ class CopyController:
     def file_copy(self, src: str, dest: str):
         try:  
             filename = os.path.basename(src)
+            if not os.path.exists(os.path.join(dest, f"{self.folder_header_name}_{self.now.date()}_{self.now.time().hour}_{self.now.time().minute}_{self.now.time().second}")):
+                os.makedirs(os.path.join(dest, f"{self.folder_header_name}_{self.now.date()}_{self.now.time().hour}_{self.now.time().minute}_{self.now.time().second}"))
             dest_path = os.path.join(dest, f"{self.folder_header_name}_{self.now.date()}_{self.now.time().hour}_{self.now.time().minute}_{self.now.time().second}", filename)
             shutil.copy(src, dest_path)
         except Exception as e:
