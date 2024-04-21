@@ -1,4 +1,4 @@
-# ![Logo](https://imgur.com/tB8QqJV) Simple file backup v0.0
+# ![Logo](https://i.imgur.com/tB8QqJV.png) Simple file backup v0.0
 
 This project aims to be a simple program to backup / copy your files and folders in batch, to a specified location.
 
@@ -34,7 +34,7 @@ If you want to compile the project you can use pyinstaller to create a standalon
 
 ## Usage
 
-![Screenshot](https://imgur.com/hBj3p73)
+![Screenshot](https://i.imgur.com/hBj3p73.png)
 
 First you can add a destination path by writing it manually in the text box on top of the window, or by clicking the "Browse" button and selecting the path from the file explorer.
 
