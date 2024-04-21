@@ -1,4 +1,6 @@
 .venv
+*.json
+tests
 tests/outputs
 ui_controller/__pycache__
 copy_controller/__pycache__
