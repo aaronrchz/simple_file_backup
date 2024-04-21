@@ -34,7 +34,7 @@ If you want to compile the project you can use pyinstaller to create a standalon
 
 ## Usage
 
-![ScreenShot](https://imgur.com/hBj3p73)
+![Screenshot](https://imgur.com/hBj3p73)
 
 First you can add a destination path by writing it manually in the text box on top of the window, or by clicking the "Browse" button and selecting the path from the file explorer.
 
