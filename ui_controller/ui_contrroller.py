@@ -23,7 +23,7 @@ class CopyThread(QThread):
         super(CopyThread, self).__init__(parent)
         self.target_list = target_list
         self.destination = destination
-        self.copy_controller = CopyController('test_bkp')
+        self.copy_controller = CopyController('bkp')
 
     def run(self):
         portion = 1 / len(self.target_list)
