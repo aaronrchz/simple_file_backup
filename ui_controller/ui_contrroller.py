@@ -50,6 +50,8 @@ class UiController:
         self.form.setupUi(self.window)
         #self.window.setFixedSize(self.window.size())
         self.window.setWindowFlags(Qt.FramelessWindowHint)
+        self.window.setWindowIcon(QIcon("ui/icons/simple_file_backup.ico"))
+        self.window.setWindowTitle("Simple File Backup")
 
         self.form.BrowseDestButton.clicked.connect(self._on_browse_dest_click)
         self.form.AddPathButton.clicked.connect(self._on_browse_add_click)
